@@ -1,0 +1,11 @@
+{
+  "name": "@screen-ui/utils",
+  "version": "",
+  "description": "",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

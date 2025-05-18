@@ -1,0 +1,49 @@
+{
+  "name": "screen-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:test": "pnpm run --filter ./examples dev",
+    "dev:doc": "pnpm run --filter ./packages/document dev",
+    "cli:add": "pnpm run --filter ./cli cli create",
+    "cli:rm": "pnpm run --filter ./cli cli remove",
+    "build:doc": "pnpm run --filter ./packages/document build",
+    "build:lib": "gulp -f packages/screen-view/script/build/gulpfile.ts",
+    "publish:lib": "gulp -f packages/screen-view/script/publish/gulpfile.ts",
+    "build:utils": "gulp -f packages/utils/script/build/gulpfile.ts",
+    "publish:utils": "gulp -f packages/utils/script/publish/gulpfile.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/generator": "^7.20.0",
+    "@babel/parser": "^7.19.6",
+    "@babel/traverse": "^7.19.6",
+    "@types/babel__generator": "^7.6.4",
+    "@types/babel__traverse": "^7.18.2",
+    "@types/fs-extra": "^9.0.13",
+    "@types/gulp": "^4.0.9",
+    "@types/gulp-autoprefixer": "^0.0.33",
+    "@types/gulp-less": "^0.0.32",
+    "@types/less": "^3.0.3",
+    "@types/prompts": "^2.4.1",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "esno": "^0.16.3",
+    "fs-extra": "^10.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-less": "^5.0.0",
+    "less": "^4.1.3",
+    "sucrase": "^3.28.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.0",
+    "vite-plugin-dts": "^1.6.6",
+    "vue": "^3.2.41"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  }
+}

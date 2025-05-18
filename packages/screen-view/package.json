@@ -1,0 +1,21 @@
+{
+  "name": "screen-view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@screen-ui/utils": "workspace:^1.0.3",
+    "echarts": "^5.4.0"
+  }
+}
